@@ -1,0 +1,79 @@
+body {
+    background-image: url(imgs/back1.png);
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+.accord{
+    padding: 110px;
+}
+.por{
+    margin-top: 75px;
+    margin-bottom: 5px;
+}
+.textd {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 15px;
+    padding-top: 25px;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 15px #fff,
+        0 0 30px #fff,
+        0 0 50px rgb(0, 255, 255),
+        0 0 65px rgb(0, 255, 255),
+        0 0 75px rgb(0, 225, 255),
+        0 0 90px rgb(0, 255, 255),
+        0 0 100px #0fa;
+  }
+  .footer1{
+    text-align: center;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 15px #fff,
+        0 0 30px #fff,
+        0 0 50px #0fa,
+        0 0 65px #0fa,
+        0 0 75px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa; 
+  }
+  h2 {
+    text-align: center;
+    position:relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -200%;
+    }
+    100% {
+      background-position: 300%;
+    }
+  }
+
+  .neon{
+    border: 0.2rem solid #fff;
+    border-radius: 1rem;
+    padding: 2em;
+    box-shadow: 0 0 .1rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #00ffff,
+                0 0 0.8rem #00ffff,
+                0 0 2.8rem #00ffff,
+                inset 0 0 1.3rem #00ffff;
+  }
